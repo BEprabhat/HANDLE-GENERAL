@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Log In</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: yellow;
+      font-family: 'Georgia', serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      position: relative;
+    }
+
+    h1 {
+      font-family: 'Lobster', cursive;
+      font-size: 2.5em;
+      margin-top: 40px;
+    }
+
+    .input-container {
+      margin: 10px 0;
+    }
+
+    input {
+      width: 400px;
+      max-width: 80%;
+      padding: 15px;
+      font-size: 1.2em;
+      font-style: italic;
+      font-weight: bold;
+      text-align: center;
+      font-family: 'Georgia', serif;
+      border: none;
+      background-color: white;
+    }
+
+    .link {
+      font-family: 'Lobster', cursive;
+      font-size: 1.5em;
+      color: black;
+      text-decoration: none;
+      margin: 20px 0;
+    }
+
+    .bottom-link {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      font-family: 'Lobster', cursive;
+      font-size: 1.5em;
+      color: black;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>log in</h1>
+
+  <div>
+    <div class="input-container">
+      <input type="text" placeholder="username">
+    </div>
+    <div class="input-container">
+      <input type="password" placeholder="password">
+    </div>
+
+    <a href="#" class="link">forgot password?</a>
+  </div>
+
+  <a href="#" class="bottom-link">try another way</a>
+
+</body>
+</html>
+
