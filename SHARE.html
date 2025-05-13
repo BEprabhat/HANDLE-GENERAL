@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Share Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lora&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Lora', serif;
+      background-color: white;
+    }
+
+    .header {
+      background-color: yellow;
+      color: black;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Lobster', cursive;
+      font-size: 24px;
+    }
+
+    .icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 50px 20px;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .icon-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .icons img {
+      width: 60px;
+      height: 60px;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .icons img:hover {
+      transform: scale(1.1);
+    }
+
+    .label {
+      margin-top: 8px;
+      font-family: 'Lora', serif;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <span>share</span>
+    <span style="font-size: 18px;">cancel</span>
+  </div>
+
+  <div class="icons">
+    <div class="icon-wrapper">
+      <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico" alt="Gmail">
+      <div class="label">1. Gmail</div>
+    </div>
+    <div class="icon-wrapper">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+      <div class="label">2. WhatsApp</div>
+    </div>
+    <div class="icon-wrapper">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" alt="Discord">
+      <div class="label">3. Discord</div>
+    </div>
+    <div class="icon-wrapper">
+      <img src="https://cdn-icons-png.flaticon.com/512/11614/11614684.png" alt="Threads">
+      <div class="label">4. Threads</div>
+    </div>
+    <div class="icon-wrapper">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" alt="Facebook">
+      <div class="label">5. Facebook</div>
+    </div>
+    <div class="icon-wrapper">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968830.png" alt="X">
+      <div class="label">6. X (Twitter)</div>
+    </div>
+    <div class="icon-wrapper">
+      <img src="https://cdn-icons-png.flaticon.com/512/906/906377.png" alt="Telegram">
+      <div class="label">7. Telegram</div>
+    </div>
+  </div>
+</body>
+</html>
+
