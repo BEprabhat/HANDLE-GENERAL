@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lora&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Lora', serif;
+            background-color: white;
+            text-align: center;
+        }
+
+        header {
+            background-color: yellow;
+            padding: 20px 0;
+            font-family: 'Lobster', cursive;
+            font-size: 24px;
+        }
+
+        .options-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px;
+            padding: 60px 40px;
+            justify-items: center;
+        }
+
+        .option {
+            text-align: center;
+            width: 150px;
+            padding: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            transition: transform 0.3s ease;
+        }
+
+        .option:hover {
+            transform: translateY(-5px);
+        }
+
+        .option img {
+            width: 80px;
+            display: block;
+            margin: 0 auto 10px auto;
+        }
+
+        .option p {
+            font-size: 18px;
+            margin: 5px 0 0 0;
+            font-family: 'Lora', serif;
+        }
+
+        .option span {
+            display: block;
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .options-container {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 30px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .options-container {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>try to log in through</header>
+
+    <div class="options-container">
+        <div class="option">
+            <span>1</span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google Logo">
+            <p>Google</p>
+        </div>
+
+        <div class="option">
+            <span>2</span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo">
+            <p>Instagram</p>
+        </div>
+
+        <div class="option">
+            <span>3</span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft Logo">
+            <p>Microsoft</p>
+        </div>
+
+        <div class="option">
+            <span>4</span>
+            <img src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png" alt="Facebook Logo">
+            <p>Facebook</p>
+        </div>
+
+        <div class="option">
+            <span>5</span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png" alt="X Logo">
+            <p>X (Twitter)</p>
+        </div>
+
+        <div class="option">
+            <span>6</span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo">
+            <p>YouTube</p>
+        </div>
+
+        <div class="option">
+            <span>7</span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn Logo">
+            <p>LinkedIn</p>
+        </div>
+    </div>
+</body>
+</html>
